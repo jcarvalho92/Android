@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JulianaDeCarvalho_MAPD711_Ex2</string>
+    <string name="full_name">Juliana De Carvalho</string>
+    <string name="qualification">BS in CS</string>
+    <string name="profession">Software Developer</string>
+    <string name="hobby">Skating</string>
+    <string name="dream_job">Mobile Developer</string>
+</resources>
