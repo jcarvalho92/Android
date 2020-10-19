@@ -21,18 +21,12 @@ class MainActivity : AppCompatActivity() {
                 val i = Intent(this, SubActivity::class.java)
 
                 //initializing a reference object for all edit texts
+                //storing value with key values pair of intent object using putExtra() method
                 val fullName      = findViewById<EditText>(R.id.edtFullName)
-                val qualification = findViewById<EditText>(R.id.edtQualification)
-                val profession    = findViewById<EditText>(R.id.edtProfession)
-                val hobby         = findViewById<EditText>(R.id.edtHobby)
-                val dreamJob      = findViewById<EditText>(R.id.edtDreamJob)
+
 
                 //storing value with key values pair of intent object using putExtra() method
                 i.putExtra("FullName", fullName.text.toString())
-                i.putExtra("Qualification", qualification.text.toString())
-                i.putExtra("Profession", profession.text.toString())
-                i.putExtra("Hobby", hobby.text.toString())
-                i.putExtra("DreamJob", dreamJob.text.toString())
 
                 //this method helps to navigate first activity screen to second activity screen.
                 startActivity(i)
