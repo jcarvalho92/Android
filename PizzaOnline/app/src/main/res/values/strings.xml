@@ -31,6 +31,8 @@
     <string name="spinach">Spinach</string>
     <string name="blackOlivies">Black Olivies</string>
     <string name="spanishOnions">Spanish Onions</string>
+    <string name="title_activity_pizza_map">Map</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

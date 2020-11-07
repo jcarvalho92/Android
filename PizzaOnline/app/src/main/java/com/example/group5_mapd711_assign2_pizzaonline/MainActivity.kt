@@ -7,11 +7,22 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.EditText
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_checkout.*
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        btnLocations.setOnClickListener(){
+
+            // Passing values using intent
+            val i = Intent(this, MapsActivity::class.java)
+            startActivity(i)
+        }
+
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
